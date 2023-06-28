@@ -1,0 +1,189 @@
+/* *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+.pageLeft,
+.pageRight{
+
+display: flex;
+flex-direction: column;
+
+}
+
+.pageLeft{
+    background-color: aqua;
+    width: 40%;
+    height: 100vh;
+    float: left;
+}
+
+.pageRight{
+    background-color: brown;
+    width:auto;
+/*     height: 100%;
+ */    
+/* }
+
+.header{
+    display:flex;
+    font-size: x-large;
+    position:relative;
+    top:30%;
+    margin-left: 7%;
+
+}  */
+
+*{
+    margin:0;
+}
+
+body{
+    background-image: url("backgroundImg/masahiro-miyagi.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: 0 -200px;
+    display:flex;
+    justify-content: center;
+}
+
+
+
+.pageRight{
+/*     float:none;
+ */    /* background:linear-gradient(135deg, #2982d6, #aa0730); */
+  /*   background:linear-gradient(to right, rgb(231, 0, 116,.8)48%, rgb(187, 13, 100)20%); */
+
+    justify-self:center;
+    width: 100vh;
+    padding:0;
+    margin:0;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+/*     background-image: url("backgroundImg/masahiro-miyagi.jpg");
+ *//*     filter:blur(0px)
+  */   /*  background-color: rgba(247, 24, 180, 0.5); */
+}
+
+.topRight,
+.middleRight,
+.bottomRight{
+   
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    height:60%;
+}
+
+.topRight{
+/*    flex-basis:37%;
+ */
+    flex:1.5;
+    display:flex;
+    padding:0;
+}
+.header{
+    display:flex;
+    align-items: flex-end;
+    margin:0 0% 0% 0%;
+    font-size:xx-large;
+    color:aliceblue;
+    /* margin-left:80px; */
+/*     animation: 1s ease-in-out infinite alternate;
+ */
+ color: #fff;
+/*  text-shadow:
+     0 0 7px #fff,
+     0 0 10px #fff,
+     0 0 21px #fff,
+     0 0 42px rgb(255, 0, 34),
+     0 0 82px rgb(255, 0, 34),
+     0 0 92px rgb(255, 0, 34),
+     0 0 102px rgb(255, 0, 34),
+     0 0 151px rgb(255, 0, 34); */
+
+     -webkit-animation: glow 1s ease-in-out infinite alternate;
+     -moz-animation: glow 1s ease-in-out infinite alternate;
+     animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+.middleRight{
+/*     flex-basis:28%;
+ */flex:2.2;
+ background-color: rgb(34, 39, 39, 0.87);
+ box-shadow: 0 3px 15px  rgb(70, 141, 248);
+max-width: fit-content;
+/* margin-left: 80px;
+ */
+}
+
+ .contact-info{
+    display:flex;
+    flex-wrap: wrap;
+    padding:10px 0px 20px 30px;
+    justify-content: space-between;
+    height:80%;
+    opacity:1;
+    color:aliceblue;
+    max-width:700px;
+
+    
+ }
+.contact-info input{
+    width: 70%;
+    height:33%;
+    border-radius: 5px;
+    
+}
+.bottomRight{
+/*     flex-basis:35%;
+ */flex:2;}
+
+fieldset{
+    border:none;
+    word-break: break-all;
+}
+.legendClass{
+    display:block;
+    font-size:x-large;
+    padding-left:30px;
+    margin:5px 0 5px 0;
+    color:aliceblue;
+
+}
+
+.contact-info .inputContainer{
+    display:flex;
+    flex-direction: column;
+    width:calc(100%/2);
+    max-width: 350px;
+    
+}
+.contact-info label{
+    font-size:larger;
+    width: fit-content;
+}
+
+form .practiceForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

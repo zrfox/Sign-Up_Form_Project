@@ -1,0 +1,155 @@
+/* *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+.pageLeft,
+.pageRight{
+
+display: flex;
+flex-direction: column;
+
+}
+
+.pageLeft{
+    background-color: aqua;
+    width: 40%;
+    height: 100vh;
+    float: left;
+}
+
+.pageRight{
+    background-color: brown;
+    width:auto;
+/*     height: 100%;
+ */    
+/* }
+
+.header{
+    display:flex;
+    font-size: x-large;
+    position:relative;
+    top:30%;
+    margin-left: 7%;
+
+}  */
+
+*{
+    margin:0;
+}
+
+body{
+    background-image: url("backgroundImg/masahiro-miyagi.jpg");
+    background-repeat: no-repeat;
+    background-size:90%;
+    background-position: -600px -200px;
+}
+
+.pageLeft{
+    float:left;
+    /* background:linear-gradient(225deg, #6ed9ec, #5cb659); */
+    width:35%;
+    height:100vh;
+  /*   background-image: url("backgroundImg/masahiro-miyagi.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: -350px 0; */
+
+}
+
+.pageRight{
+    float: right;
+    /* background:linear-gradient(135deg, #2982d6, #aa0730); */
+  /*   background:linear-gradient(to right, rgb(231, 0, 116,.8)48%, rgb(187, 13, 100)20%); */
+  background:linear-gradient(to right, rgb(231, 0, 116,.8)48%, rgb(187, 13, 100)20%);
+   
+    width:65%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+
+/*     background-image: url("backgroundImg/masahiro-miyagi.jpg");
+ *//*     filter:blur(0px)
+  */   /*  background-color: rgba(247, 24, 180, 0.5); */
+}
+
+.topRight,
+.middleRight,
+.bottomRight{
+   
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    height:60%;
+}
+
+.topRight{
+/*    flex-basis:37%;
+ */
+    flex:1.5;
+    display:flex;
+    padding:0;
+}
+.header{
+    display:flex;
+    align-items: flex-end;
+    margin:0 20% 5% 5%;
+    font-size:xx-large;
+    margin-left:80px;
+}
+.middleRight{
+/*     flex-basis:28%;
+ */flex:2.2;
+ background-color: rgb(34, 39, 39, 0.75);
+ box-shadow: 0 3px 15px  rgb(70, 141, 248);
+
+
+}
+
+ .contact-info{
+    display:flex;
+    flex-wrap: wrap;
+    padding:30px 400px 20px 80px;
+    justify-content: space-between;
+    height:80%;
+    opacity:1;
+    
+ }
+.contact-info input{
+    width: 70%;
+    height:33%;
+    border-radius: 5px;
+}
+.bottomRight{
+/*     flex-basis:35%;
+ */flex:2;}
+
+fieldset{
+    border:none;
+    word-break: break-all;
+}
+.legendClass{
+    display:block;
+    font-size:x-large;
+    padding-left:80px;
+    margin:5px 0 5px 0
+}
+
+.contact-info .inputContainer{
+    display:flex;
+    flex-direction: column;
+    width:calc(100%/2)
+    
+    
+}
+.contact-info label{
+    font-size:larger;
+}
+
+.image1{
+}
